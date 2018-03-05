@@ -10,7 +10,7 @@ import java.util.Comparator;
 import java.util.Properties;
 import java.util.TimerTask;
 
-public class MonitoringScheduler extends TimerTask{
+public class Monitor extends TimerTask{
 
 	private String archiveDirectory = "";
 	private String securedDirectory = "";
